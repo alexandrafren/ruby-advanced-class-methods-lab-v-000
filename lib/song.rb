@@ -49,7 +49,7 @@ class Song
   end
 
  def self.new_from_filename(mp3_input)
-   info = mp3_input.tr(".mp3").split("-")
+     info = mp3_input.tr(".mp3").split("-")
      new_song = self.create
      new_song.name = info[1]
      new_song.artist_name = info[0]
