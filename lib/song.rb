@@ -53,7 +53,7 @@ class Song
      new_song = self.create
      new_song.name = info[1]
      new_song.artist_name = info[0]
-     return new_song
+     new_song
  end
 
  def self.create_from_filename(mp3)
