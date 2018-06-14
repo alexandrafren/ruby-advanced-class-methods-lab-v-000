@@ -54,6 +54,7 @@ class Song
      name = info[1]
      artist_name = info[0]
      new_song = self.create
+     save
      new_song.name = name
      new_song.artist_name = artist_name
      new_song
