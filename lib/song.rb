@@ -53,10 +53,10 @@ class Song
      info = mp3_input.tr(".mp3").split(" - ")
      #name = info[1]
      #artist_name = info[0]
-     #new_song = self.create
-     #new_song.name = name
-     #new_song.artist_name = artist_name
-     #new_song
+     new_song = self.new
+     new_song.name = name
+     new_song.artist_name = artist_name
+     new_song
  end
 
  def self.create_from_filename(mp3)
