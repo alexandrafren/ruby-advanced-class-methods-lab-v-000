@@ -59,6 +59,7 @@ class Song
 
  def self.create_from_filename(mp3)
    new_from_filename(mp3)
+   save
  end
 
  def self.destroy_all
