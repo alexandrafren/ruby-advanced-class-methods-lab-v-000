@@ -35,7 +35,6 @@ class Song
       track.name == song_name
       result = track
     end
-    end
     result
   end
 
