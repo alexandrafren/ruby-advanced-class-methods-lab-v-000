@@ -32,11 +32,13 @@ class Song
   def self.find_by_name(song_name)
     self.all.find do |track|
       track.name == song_name
+      puts song.name
     end
   end
 
   def self.find_or_create_by_name(song_name)
     if self.find_by_name(song_name)
+      return
     else
       create_by_name(song_name)
     end
