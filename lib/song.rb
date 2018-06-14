@@ -36,7 +36,7 @@ class Song
       result = track
     end
     end
-    track
+    result
   end
 
   def self.find_or_create_by_name(song_name)
