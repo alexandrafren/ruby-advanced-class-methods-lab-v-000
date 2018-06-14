@@ -32,8 +32,8 @@ class Song
   def self.find_by_name(song_name)
     self.all.find do |track|
       track.name == song_name
-      puts track.name
     end
+    return track.name
   end
 
   def self.find_or_create_by_name(song_name)
